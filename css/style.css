@@ -176,7 +176,6 @@ section{
 /* footer */
 .footer_top{
   background-color: black;
-  height: 600px;
   color: white;
 }
 .footer_logo{
@@ -198,7 +197,6 @@ ul{
   list-style: none;
   padding: 0;
 }
-
 ul li{
   margin-bottom: 10px;
 }
@@ -210,6 +208,36 @@ ul li a{
 ul li a:hover{
   text-decoration: none;
   color: white;
+}
+.footer_bottom{
+  height: 200px;
+  background-color: black;
+}
+.social_list {
+  margin-top: 70px;
+  margin-left: 45px;
+}
+.social_list li a{
+  color: #fff;
+}
+.footer_img{
+  display: inline-block;
+  width: calc((100% / 3) - 9px);
+  margin-top: 60px;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 1px;
+  margin-left: 5px;
+}
+.copyright{
+  margin-top: 70px;
+  margin-left: 45px;
+  color: white;
+  padding: 0;
+  font-size: 12px;
+}
+.copyright a{
+  font-size: 12px;
 }
 
 
