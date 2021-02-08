@@ -65,6 +65,7 @@ body{
 }
 .header_bottom{
   margin: 70px 0;
+  padding: 50px 0;
 }
 h1{
   font-size: 100px;
@@ -75,6 +76,9 @@ h1{
 }
 /* header */
 /* main */
+section{
+  padding: 30px;
+}
 .product{
   text-align: center;
   padding: 80px 20px 30px 20px;
@@ -97,37 +101,83 @@ h1{
   max-height: 280px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 992px) {
-  h1{
-    font-size: 80px;
-  }
-
+.banner{
+  background-image: url('../img/banner.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
 }
+
+.container_small{
+  max-width: 800px;
+  margin: auto;
+}
+.boxes{
+  margin-top: 250px;
+}
+.box{
+  display: inline-block;
+  position: relative;
+  width: calc(100% / 3);
+}
+.box_left{
+  right: calc(100% / 3);
+  vertical-align: bottom;
+}
+.box_left h2{
+  margin-bottom: 150px;
+  font-weight: bold;
+}
+.box_img{
+  left: calc(100% / 3);
+}
+.box_img img{
+  width: 100%;
+  max-width: 250px;
+}
+.box_right{
+  vertical-align: bottom;
+}
+.box_description{
+  margin-bottom: 150px;
+}
+.box_description h3{
+  font-weight: bold;
+}
+
+
+
 
 @media screen and (max-width: 768px) {
   h1{
     font-size: 60px;
+  }
+  .box{
+    width: 100%;
+    display: block;    
+  }
+  .box_img{
+    right: auto;
+  }
+  .box_left{
+    left: auto;
+  }
+}
+@media screen and (max-width: 992px) {
+  h1{
+    font-size: 80px;
+  }
+  .box{
+    width: 100%;
+    display: block;
+  }
+  .box_img{
+    right: auto;
+  }
+  .box_left{
+    left: auto;
   }
 
 }
