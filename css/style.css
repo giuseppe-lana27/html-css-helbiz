@@ -6,19 +6,26 @@ body{
 .header_top{
   height: 70px;
   line-height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  background-color: #fff;
 }
 .main_nav,
 .secondary_nav{
   display: inline-block;
 }
-
+.logo img{
+  height: 15px;
+}
 .main_nav ul{
   margin-bottom: 0;
 }
 .main_nav ul li{
   margin-right: 30px;
 }
-
 .main_nav li a{
   color: #000;
   text-transform: uppercase;
@@ -55,7 +62,6 @@ body{
 .btn_mobile{
   border: none;
   font-size: 18px;
-  padding: 5px;
 }
 .header_bottom{
   margin-top: 70px;
@@ -64,7 +70,9 @@ h1{
   font-size: 100px;
   font-weight: bold;
 }
-
+.hero_img{
+  width: 100%;
+}
 
 
 
