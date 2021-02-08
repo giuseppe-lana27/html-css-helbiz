@@ -77,7 +77,7 @@ h1{
 /* header */
 /* main */
 section{
-  padding: 30px 0;
+  padding: 40px 0;
 }
 /* sezione products */
 .product{
@@ -150,8 +150,28 @@ section{
 .box_description p{
   font-size: 20px;
 }
-
-
+/* sezione carpisa */
+.carpisa_description{
+  padding: 30px;
+  margin-top: 40px;
+}
+.carpisa_description h2{
+  font-size: 53px;
+  font-weight: 600;
+  color: black;
+  margin: 30px 0;
+}
+.carpisa_description p{
+  font-size: 19px;
+  margin-bottom: 25px;
+}
+.carpisa_description a{
+  color: black;
+  font-size: 18px;
+}
+.carpisa_description a:hover{
+  text-decoration: none;
+}
 @media screen and (max-width: 768px) {
   h1{
     font-size: 60px;
